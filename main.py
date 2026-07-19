@@ -13,14 +13,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiohttp import web
 
 # ==================== CONFIGURATION ====================
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+API_ID = int(os.environ.get("33675350"))
+API_HASH = os.environ.get("2f97c845b067a750c9f36fec497acf97")
+BOT_TOKEN = os.environ.get("8787057992:AAGVOgykB3Lj13dBT0gy15TammjtI633S7A")
 RCLONE_PATH = os.environ.get("RCLONE_PATH", "remote:") 
 PORT = int(os.environ.get("PORT", 8080))
 
 # --- Dump Channel Logic ---
-DUMP_CHANNEL = 0
+DUMP_CHANNEL = -1004455954813
 try:
     d = str(os.environ.get("DUMP_CHANNEL", "0")).strip()
     if d != "0":
